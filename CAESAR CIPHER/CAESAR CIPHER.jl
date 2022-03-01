@@ -60,7 +60,6 @@ function Decryption()
             else
                 println(goal)
                 decrypted_char_index = (goal - key) + 26
-                println(decrypted_char_index)
                 decrypted_message = decrypted_message * alphapet[decrypted_char_index]
             end    
         else
